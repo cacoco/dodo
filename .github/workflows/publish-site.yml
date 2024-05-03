@@ -43,7 +43,7 @@ jobs:
           java-version: adopt@1.8
       - uses: actions/setup-python@v2
         with:
-          python-version: 3.6
+          python-version: 3.8
       - name: setup/sphinx
         run: |
           sudo apt-get update
